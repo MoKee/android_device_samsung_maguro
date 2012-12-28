@@ -2,7 +2,12 @@
  {
    "repository": "android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
-   "branch": "jb_mkt"
+   "branch": "jb-mr1_mkt"
+ },
+ {
+   "repository": "android_device_samsung_tuna",
+   "target_path": "device/samsung/tuna",
+   "branch": "jb-mr1_mkt"
  }
 ]
 
