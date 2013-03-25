@@ -22,3 +22,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
 
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
