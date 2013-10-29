@@ -1,6 +1,3 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/mk/config/gsm.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
 
@@ -15,7 +12,7 @@ $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 $(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/maguro/full_maguro.mk)
+$(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
